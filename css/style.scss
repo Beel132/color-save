@@ -1,4 +1,4 @@
-$main: #ef5e50;
+// $main: #ef5e50;
 $white: #ECF0F1;
 $black: #2C3E50;
 
@@ -11,11 +11,6 @@ $black: #2C3E50;
 }
 
 // default classes
-
-.color {
-    color: $main;
-    font-weight: 500;
-}
 
 .title {
     color: $white;
@@ -75,15 +70,15 @@ body {
 
             cursor: pointer;
 
-            &:hover>.copy {
+            &:hover > .copy {
                 opacity: 1;
             }
 
-            &:nth-child(1),
-            &:nth-child(2),
-            &:nth-child(3) {
-                border-radius: 10px;
-            }
+//          &:nth-child(1),
+//          &:nth-child(2),
+//          &:nth-child(3) {
+//              border-radius: 10px;
+//          }
 
             .copy {
                 position: absolute;
